@@ -1,0 +1,120 @@
+/* header stylers */
+.title{
+    display: flex;
+    background-color: rgb(40, 87, 151);
+    color: rgb(255, 255, 255);
+    height: 100px;
+    border-bottom: 15px solid rgb(224, 129, 46);
+    text-indent: 20px;
+    margin-top: 0px;
+    padding-top: 15px;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    align-items: center;
+    text-align: left;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+/* Search Button */
+input{
+	margin:1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+	background: #fff;
+	font-size: 1.3rem;
+	border: none;
+	box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+	padding: 0 2rem;
+	width: calc(100% - 10rem);
+	height: 4rem;
+}
+/* ##### NamesList ##### */
+tr {
+	padding: 4px;
+}
+th {
+	position: left;
+	text-align: left;
+	list-style: none;
+	padding: 0.25rem 0.75rem;
+	margin: 2px;
+	border-radius: 3px;
+}
+td:hover {
+	position: left;
+	cursor: pointer;
+	background-color: #ddd;
+}
+
+/* Add Card  form*/
+.form-group {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	margin-bottom: 10px;
+}
+  
+.form-group label {
+    grid-column: 1;
+	margin-right: 10px;
+	font-weight: bold;
+	height: auto;
+}
+  
+.form-group input {
+    grid-column: 2;
+	height: 24px;
+	font-size: 16px;
+	text-align: left;
+	align-items: flex-end;
+	margin-bottom: 0px;
+}
+.error-message{
+    grid-column: 2;
+	height: 24px;
+	font-size: 12px;
+	text-align: left;
+	color: red;
+	font-weight: bold;
+}
+/* View and Add Cards */
+.card{
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+    margin-left: 1rem;
+    width:calc(100%);
+}
+.card-header{
+    font-weight: bolder;
+    font-size: 18px;
+    color: rgb(191, 68, 24);
+}
+.card-body{
+    padding: 20px;
+}
+/* Add Deleted buttons */
+.button1{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: 1.75;
+    text-transform: uppercase;
+    min-width: 64px;
+    padding: 10px 16px;
+    border:rgb(255, 255, 255);
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 115, 199);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+    width: 100%;
+}
+.button1 svg{
+    margin-right: 5px;
+}
+button:hover {
+    background: rgb(40, 87, 151);
+}
